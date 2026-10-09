@@ -1,0 +1,34 @@
+{
+  "id": "march",
+  "author": "Franz Xaver",
+  "title": "Der Todesmarsch",
+  "description": "Triff auf einem gefährlichen Weg durch den Wald die richtigen Entscheidungen und erreiche dein Ziel.",
+  "genre": "Überleben",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Eine Frucht am Weg",
+      "text": ["Willkommen auf dem Todesmarsch. Deine Aufgabe ist es, immer die richtige Entscheidung zu treffen.", "Vor dir liegt eine Frucht. Willst du sie essen?"],
+      "choices": [{"label": "Die Frucht essen", "to": "fork"}, {"label": "Die Frucht liegen lassen", "to": "hunger"}],
+      "image": "march-start"
+    },
+    "fork": {
+      "title": "Die Weggabelung",
+      "text": ["Die Frucht hat dich gestärkt. Bald kommst du zu einer Abzweigung.", "Gehst du links oder rechts?"],
+      "choices": [{"label": "Nach links gehen", "to": "shelter"}, {"label": "Nach rechts gehen", "to": "wolves"}],
+      "image": "march-fork"
+    },
+    "shelter": {
+      "title": "Ein Schlafplatz für die Nacht",
+      "text": ["Du konntest dem Wolfsrudel auf der anderen Seite ausweichen. Doch die Nacht bricht herein. Bleib vorsichtig.", "Wo möchtest du schlafen?"],
+      "choices": [{"label": "In der Höhle", "to": "arrival"}, {"label": "Im verlassenen Haus", "to": "house_collapse"}, {"label": "In einer Baumkrone", "to": "branch_breaks"}, {"label": "Unter freiem Himmel", "to": "night_wolves"}],
+      "image": "march-shelter"
+    },
+    "hunger": {"title": "Keine Kraft mehr", "text": ["Ohne die Frucht reichen deine Kräfte nicht für den weiteren Weg. Du überlebst den Marsch nicht."], "choices": [], "image": "march-start", "ending": "failure"},
+    "wolves": {"title": "Der gefährliche Weg", "text": ["Auf diesem Weg begegnest du einem Wolfsrudel. Du überlebst die Begegnung nicht. Dein Abenteuer endet hier."], "choices": [], "image": "march-fork", "ending": "failure"},
+    "arrival": {"title": "Das Ziel erreicht", "text": ["In der Höhle überstehst du die Nacht. Am nächsten Tag setzt du deinen Weg fort und erreichst dein Ziel.", "Du hast den Marsch überlebt!"], "choices": [], "image": "march-shelter", "ending": "success"},
+    "house_collapse": {"title": "Ein unsicheres Dach", "text": ["Im verlassenen Haus bricht ein morscher Balken herab. Du überlebst den Einsturz nicht. Dein Abenteuer endet hier."], "choices": [], "image": "march-shelter", "ending": "failure"},
+    "branch_breaks": {"title": "Der Ast bricht", "text": ["Der Ast, auf dem du schläfst, bricht ab. Du überlebst den Sturz nicht. Dein Abenteuer endet hier."], "choices": [], "image": "march-shelter", "ending": "failure"},
+    "night_wolves": {"title": "Ohne Schutz in der Nacht", "text": ["Unter freiem Himmel bist du dem Wolfsrudel schutzlos ausgesetzt. Du überlebst die Nacht nicht. Dein Abenteuer endet hier."], "choices": [], "image": "march-shelter", "ending": "failure"}
+  }
+}

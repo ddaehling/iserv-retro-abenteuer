@@ -1,0 +1,60 @@
+{
+  "id": "escape",
+  "author": "Lilly-Rose",
+  "title": "Mystery Escape",
+  "description": "Entdecke Hinweise und Schlüssel in geheimnisvollen Räumen und entschlüssele den Weg nach draußen.",
+  "genre": "Escape-Rätsel",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Drei Türen",
+      "text": ["Du wachst in einem unbekannten Raum auf. Die Tür nach draußen ist verschlossen. Du musst einen Ausweg finden.", "Vor dir liegen drei weitere Türen. Welche wählst du?"],
+      "choices": [{"label": "Rote Tür", "to": "room_red", "score": 1}, {"label": "Blaue Tür", "to": "room_blue"}, {"label": "Grüne Tür", "to": "room_green", "score": 2}],
+      "image": "escape-start"
+    },
+    "room_red": {
+      "title": "Schrank oder Schreibtisch?",
+      "text": ["Die rote Tür führt in einen dunklen Raum. Auf einem Tisch findest du einen Schlüssel und nimmst ihn mit. Dafür erhältst du 1 Punkt.", "Du kommst in einen weiteren Raum. Vor dir stehen ein Schrank und ein Schreibtisch. Was möchtest du untersuchen?"],
+      "choices": [{"label": "Schrank untersuchen", "to": "box"}, {"label": "Schreibtisch untersuchen", "to": "exit_desk", "score": 2}],
+      "image": "escape-room"
+    },
+    "room_blue": {
+      "title": "Schrank oder Schreibtisch?",
+      "text": ["Hinter der blauen Tür liegt eine Sackgasse. Du gehst zurück.", "Schließlich kommst du in einen weiteren Raum. Vor dir stehen ein Schrank und ein Schreibtisch. Was möchtest du untersuchen?"],
+      "choices": [{"label": "Schrank untersuchen", "to": "box"}, {"label": "Schreibtisch untersuchen", "to": "exit_desk", "score": 2}],
+      "image": "escape-room"
+    },
+    "room_green": {
+      "title": "Schrank oder Schreibtisch?",
+      "text": ["Hinter der grünen Tür findest du einen geheimen Hinweis. Dafür erhältst du 2 Punkte.", "Du kommst in einen weiteren Raum. Vor dir stehen ein Schrank und ein Schreibtisch. Was möchtest du untersuchen?"],
+      "choices": [{"label": "Schrank untersuchen", "to": "box"}, {"label": "Schreibtisch untersuchen", "to": "exit_desk", "score": 2}],
+      "image": "escape-room"
+    },
+    "box": {
+      "title": "Die kleine Box",
+      "text": ["Im Schrank findest du eine kleine Box. Auf ihr steht: 472.", "Gib den Code ein, um die Box zu öffnen."],
+      "code": {"answer": "472", "correct": "exit_box_open", "incorrect": "exit_box_closed", "score": 3},
+      "image": "escape-box"
+    },
+    "exit_box_open": {
+      "title": "Das Zahlenschloss am Ausgang",
+      "text": ["Die Box öffnet sich. Du findest einen weiteren Schlüssel und erhältst 3 Punkte.", "Schließlich findest du eine Tür zum Ausgang. Davor befindet sich ein Zahlenschloss. Welche Zahl möchtest du eingeben?"],
+      "choices": [{"label": "1234", "to": "locked"}, {"label": "472", "to": "escaped"}, {"label": "8391", "to": "locked"}],
+      "image": "escape-exit"
+    },
+    "exit_box_closed": {
+      "title": "Das Zahlenschloss am Ausgang",
+      "text": ["Der Code ist falsch. Die Box bleibt verschlossen.", "Schließlich findest du eine Tür zum Ausgang. Davor befindet sich ein Zahlenschloss. Welche Zahl möchtest du eingeben?"],
+      "choices": [{"label": "1234", "to": "locked"}, {"label": "472", "to": "escaped"}, {"label": "8391", "to": "locked"}],
+      "image": "escape-exit"
+    },
+    "exit_desk": {
+      "title": "Das Zahlenschloss am Ausgang",
+      "text": ["Auf dem Schreibtisch liegt ein Zettel: „Der Ausgang ist hinter dem Bild.“ Dafür erhältst du 2 Punkte.", "Du findest die Tür zum Ausgang. Davor befindet sich ein Zahlenschloss. Welche Zahl möchtest du eingeben?"],
+      "choices": [{"label": "1234", "to": "locked"}, {"label": "472", "to": "escaped"}, {"label": "8391", "to": "locked"}],
+      "image": "escape-exit"
+    },
+    "escaped": {"title": "Du bist entkommen!", "text": ["Der Code funktioniert. Die Tür öffnet sich und du findest den Weg nach draußen.", "Du hast Mystery Escape geschafft!"], "choices": [], "image": "escape-exit", "ending": "success"},
+    "locked": {"title": "Die Tür bleibt verschlossen", "text": ["Dieser Code funktioniert nicht. Die Tür bleibt verschlossen und du bleibst im Raum.", "Dein Fluchtversuch endet hier."], "choices": [], "image": "escape-exit", "ending": "failure"}
+  }
+}

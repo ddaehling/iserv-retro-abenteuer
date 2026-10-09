@@ -1,0 +1,63 @@
+{
+  "id": "castle",
+  "author": "Mirac",
+  "title": "Das verlassene Schloss",
+  "description": "Ein verlassenes Schloss, geheimnisvolle Kisten und die Suche nach einem verborgenen Schatz.",
+  "genre": "Schatzsuche",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Vor dem Schloss",
+      "text": ["Du stehst vor einem verlassenen Schloss. Wie gelangst du hinein?"],
+      "choices": [{"label": "Durch das Tor gehen", "to": "hall"}, {"label": "Durch das Fenster klettern", "to": "window_end"}],
+      "image": "castle-start"
+    },
+    "hall": {
+      "title": "Die Eingangshalle",
+      "text": ["Du bist in der Eingangshalle. Ein Weg führt nach oben, ein anderer nach unten."],
+      "choices": [{"label": "Nach oben gehen", "to": "boxes"}, {"label": "Nach unten gehen", "to": "secret_end"}],
+      "image": "castle-hall"
+    },
+    "boxes": {
+      "title": "Drei Kisten",
+      "text": ["Du findest drei Kisten: eine rote, eine blaue und eine grüne. Welche öffnest du?"],
+      "choices": [{"label": "Die rote Kiste öffnen", "to": "red_end"}, {"label": "Die blaue Kiste öffnen", "to": "blue_end"}, {"label": "Die grüne Kiste öffnen", "to": "green_end"}],
+      "image": "castle-boxes"
+    },
+    "window_end": {
+      "title": "Eingeschlossen",
+      "text": ["Du kletterst hinein, aber die Tür fällt zu. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "castle-start",
+      "ending": "failure"
+    },
+    "secret_end": {
+      "title": "Die geheime Tür",
+      "text": ["Du findest eine geheime Tür. Dahinter liegt der Schatz!", "Du hast gewonnen!"],
+      "choices": [],
+      "image": "castle-hall",
+      "ending": "success"
+    },
+    "red_end": {
+      "title": "Eine leere Kiste",
+      "text": ["Die Kiste ist leer. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "castle-boxes",
+      "ending": "failure"
+    },
+    "blue_end": {
+      "title": "Ein Schlüssel",
+      "text": ["Du findest einen Schlüssel.", "Hier endet diese Geschichte."],
+      "choices": [],
+      "image": "castle-boxes",
+      "ending": "neutral"
+    },
+    "green_end": {
+      "title": "Der Schatz",
+      "text": ["Du hast den Schatz gefunden! Du gewinnst!"],
+      "choices": [],
+      "image": "castle-boxes",
+      "ending": "success"
+    }
+  }
+}

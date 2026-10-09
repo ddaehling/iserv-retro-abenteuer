@@ -1,0 +1,342 @@
+[
+  {
+    "id": "castle-boxes",
+    "image": "assets/scenes/castle-boxes.webp",
+    "prompt": "prompts/castle-boxes.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "castle-hall",
+    "image": "assets/scenes/castle-hall.webp",
+    "prompt": "prompts/castle-hall.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "castle-start",
+    "image": "assets/scenes/castle-start.webp",
+    "prompt": "prompts/castle-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-battle-orcs",
+    "image": "assets/scenes/dungeon-battle-orcs.webp",
+    "prompt": "prompts/dungeon-battle-orcs.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-battle-zombies",
+    "image": "assets/scenes/dungeon-battle-zombies.webp",
+    "prompt": "prompts/dungeon-battle-zombies.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-battle",
+    "image": "assets/scenes/dungeon-battle.webp",
+    "prompt": "prompts/dungeon-battle.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-dragon",
+    "image": "assets/scenes/dungeon-dragon.webp",
+    "prompt": "prompts/dungeon-dragon.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-rest",
+    "image": "assets/scenes/dungeon-rest.webp",
+    "prompt": "prompts/dungeon-rest.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-shop",
+    "image": "assets/scenes/dungeon-shop.webp",
+    "prompt": "prompts/dungeon-shop.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "dungeon-start",
+    "image": "assets/scenes/dungeon-start.webp",
+    "prompt": "prompts/dungeon-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "escape-box",
+    "image": "assets/scenes/escape-box.webp",
+    "prompt": "prompts/escape-box.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "escape-exit",
+    "image": "assets/scenes/escape-exit.webp",
+    "prompt": "prompts/escape-exit.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "escape-room",
+    "image": "assets/scenes/escape-room.webp",
+    "prompt": "prompts/escape-room.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "escape-start",
+    "image": "assets/scenes/escape-start.webp",
+    "prompt": "prompts/escape-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "forest-cabin",
+    "image": "assets/scenes/forest-cabin.webp",
+    "prompt": "prompts/forest-cabin.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "forest-cliff",
+    "image": "assets/scenes/forest-cliff.webp",
+    "prompt": "prompts/forest-cliff.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "forest-footsteps",
+    "image": "assets/scenes/forest-footsteps.webp",
+    "prompt": "prompts/forest-footsteps.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "forest-start",
+    "image": "assets/scenes/forest-start.webp",
+    "prompt": "prompts/forest-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-chest",
+    "image": "assets/scenes/house-chest.webp",
+    "prompt": "prompts/house-chest.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-doors",
+    "image": "assets/scenes/house-doors.webp",
+    "prompt": "prompts/house-doors.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-equipment",
+    "image": "assets/scenes/house-equipment.webp",
+    "prompt": "prompts/house-equipment.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-kitchen",
+    "image": "assets/scenes/house-kitchen.webp",
+    "prompt": "prompts/house-kitchen.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-rooms",
+    "image": "assets/scenes/house-rooms.webp",
+    "prompt": "prompts/house-rooms.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-start",
+    "image": "assets/scenes/house-start.webp",
+    "prompt": "prompts/house-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "house-study",
+    "image": "assets/scenes/house-study.webp",
+    "prompt": "prompts/house-study.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-lookout",
+    "image": "assets/scenes/island-lookout.webp",
+    "prompt": "prompts/island-lookout.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-map",
+    "image": "assets/scenes/island-map.webp",
+    "prompt": "prompts/island-map.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-river",
+    "image": "assets/scenes/island-river.webp",
+    "prompt": "prompts/island-river.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-smoke",
+    "image": "assets/scenes/island-smoke.webp",
+    "prompt": "prompts/island-smoke.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-start",
+    "image": "assets/scenes/island-start.webp",
+    "prompt": "prompts/island-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "island-temple",
+    "image": "assets/scenes/island-temple.webp",
+    "prompt": "prompts/island-temple.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "march-fork",
+    "image": "assets/scenes/march-fork.webp",
+    "prompt": "prompts/march-fork.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "march-shelter",
+    "image": "assets/scenes/march-shelter.webp",
+    "prompt": "prompts/march-shelter.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "march-start",
+    "image": "assets/scenes/march-start.webp",
+    "prompt": "prompts/march-start.prompt.txt",
+    "generator": "Built-in Imagegen",
+    "styleReference": "castle-start",
+    "source": "fictional story scene",
+    "width": 1448,
+    "height": 1086
+  }
+]

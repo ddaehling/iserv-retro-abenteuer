@@ -1,0 +1,69 @@
+{
+  "id": "forest",
+  "author": "Philip",
+  "title": "Verloren im dunklen Wald",
+  "description": "Zwei Waldwege, geheimnisvolle Schritte und eine Entscheidung zwischen Flucht und Vertrauen.",
+  "genre": "Waldabenteuer",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Zwei Wege",
+      "text": ["Du wachst mitten in einem dunklen Wald auf. Vor dir liegen zwei Wege. Welchen nimmst du?"],
+      "choices": [{"label": "Den linken Weg nehmen", "to": "footsteps"}, {"label": "Den rechten Weg nehmen", "to": "cliff"}],
+      "image": "forest-start"
+    },
+    "footsteps": {
+      "title": "Schritte hinter dir",
+      "text": ["Plötzlich hörst du Schritte hinter dir. Was tust du?"],
+      "choices": [{"label": "Dich verstecken", "to": "cabin"}, {"label": "Wegrennen", "to": "trap_end"}],
+      "image": "forest-footsteps"
+    },
+    "cabin": {
+      "title": "Die alte Hütte",
+      "text": ["Du entdeckst eine alte Hütte. Möchtest du anklopfen oder weitergehen?"],
+      "choices": [{"label": "Anklopfen", "to": "home_end"}, {"label": "Weitergehen", "to": "lost_end"}],
+      "image": "forest-cabin"
+    },
+    "cliff": {
+      "title": "An der Klippe",
+      "text": ["Der Weg endet an einer gefährlichen Klippe. Möchtest du hinunterklettern oder umdrehen?"],
+      "choices": [{"label": "Vorsichtig hinunterklettern", "to": "village_end"}, {"label": "Umdrehen", "to": "animal_end"}],
+      "image": "forest-cliff"
+    },
+    "trap_end": {
+      "title": "Die Falle",
+      "text": ["Du rennst direkt in eine Falle. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "forest-footsteps",
+      "ending": "failure"
+    },
+    "home_end": {
+      "title": "Der Weg nach Hause",
+      "text": ["Ein alter Mann öffnet die Tür und gibt dir eine Karte. Du hast den Weg nach Hause gefunden!", "Du gewinnst!"],
+      "choices": [],
+      "image": "forest-cabin",
+      "ending": "success"
+    },
+    "lost_end": {
+      "title": "Im Wald verirrt",
+      "text": ["Du gehst weiter und verirrst dich im Wald. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "forest-cabin",
+      "ending": "failure"
+    },
+    "village_end": {
+      "title": "Das versteckte Dorf",
+      "text": ["Du kletterst vorsichtig hinunter und findest ein verstecktes Dorf. Du bist gerettet!", "Du gewinnst!"],
+      "choices": [],
+      "image": "forest-cliff",
+      "ending": "success"
+    },
+    "animal_end": {
+      "title": "Ein wildes Tier",
+      "text": ["Du drehst dich um, aber ein wildes Tier wartet bereits auf dich. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "forest-cliff",
+      "ending": "failure"
+    }
+  }
+}

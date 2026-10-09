@@ -1,0 +1,69 @@
+Use case: illustration-story
+Asset type: Einzelne Spielszenenillustration für ein browserbasiertes Retro-Textabenteuer.
+
+AUFTRAG
+Erzeuge genau eine vollständige Szenenillustration. Alle Illustrationen dieser Reihe müssen wie von derselben Pixelkünstlerin oder demselben Pixelkünstler für dasselbe handgezeichnete PC-/Amiga-Grafikadventure um 1992 erstellt aussehen: klare Pixelcluster, begrenzte Farben, sorgfältig inszenierte Spielorte und gut erkennbare Gegenstände. Die frühe 1990er-Jahre-Ästhetik bestimmt ausschließlich die Bildgestaltung; die Epoche und Gegenstände der Geschichte richten sich nach der Szenenbeschreibung.
+
+REFERENZEN
+Referenzbild 1, sofern beigefügt: verbindliche Stilreferenz für Pixelgröße, Cluster, Farbabstufungen, Kontrast, Dithering, Perspektive und Detaildichte. Übernimm daraus keine zusätzlichen Figuren, Gegenstände oder Handlungselemente.
+Referenzbild 2, sofern beigefügt: verbindliche Figurenreferenz für die in der Figurenbibel bezeichneten wiederkehrenden Figuren. Bewahre Silhouette, Alterseindruck, Körperproportionen, Haarform, Kleidung, feste Farben und persönliche Gegenstände. Übernimm keine fremden Figuren aus anderen Geschichten.
+Sind keine Referenzen vorhanden, interpretiere diese schriftliche Stilvorgabe als Ausgangspunkt für das erste freizugebende Referenzbild.
+
+SZENENFELDER — PRO BILD AUSFÜLLEN
+Neutraler Geschichtencode: house
+Neutraler Knotencode: house-chest
+Aktueller Ort und sichtbare Umgebung: Staubiger Kellerraum mit Steinwänden und Boden.
+Tageszeit und Wetter, soweit in der Geschichte festgelegt: Dunkler Innenraum mit schwacher gestufter Taschenlampenaufhellung.
+Genau der jetzt erzählte Moment: First-person view of a closed old wooden treasure chest with a metal lock in a dusty basement room. An ordinary worn rug lies on the floor nearby, fully flat, revealing nothing beneath it. Stone walls, faint flashlight illumination. Chest remains shut, no key or treasure visible, no outcome revealed. No person, text, lettering, numbers or UI.
+Unmittelbar sichtbare Personen, Wesen und Gegenstände: Geschlossene alte hölzerne Truhe mit Metallschloss; daneben gewöhnlicher abgenutzter Teppich, völlig flach auf dem Boden.
+Erkennbare räumliche Entscheidungssituation: Geschlossene Truhe und flacher Teppich sichtbar, ohne den nächsten Schritt darzustellen.
+Aktuelle Stimmung: Verhaltene Neugier und Erwartung.
+Unveränderliche Figurenbibel dieser Geschichte: Unsichtbare Spielerperspektive; in keinem Hausbild Personen, Körper oder Hände darstellen. Keine sichtbaren wiederkehrenden Figuren.
+Bereits erzählte Veränderungen an Figuren oder Ort: Der Raum mit der verschlossenen Truhe ist erreicht.
+Wichtige Kontinuität mit früheren Szenen: Dasselbe verlassene Haus. Truhe geschlossen; Teppich bleibt flach und unscheinbar.
+Ausdrücklich noch nicht zeigen: Kein Schlüssel, kein Schatz, kein Gegenstand unter dem Teppich, keine Öffnung oder spätere Folge.
+
+FIGURENBIBEL UND KONTINUITÄT
+Die Figurenbibel verwendet neutrale Bezeichnungen wie „Figur A“, keine Namen realer Menschen. Je Figur enthält sie Rolle, fiktiven Alterseindruck, Körpergröße und -form, Haarsilhouette, Kleidungsstücke mit Palettefarben und höchstens zwei prägnante Wiedererkennungsmerkmale. Keine realen Schülerporträts und keine Ableitung eines Aussehens aus Verfassernamen. Figuren bleiben in allen Bildern derselben Geschichte unverändert, sofern eine Zustandsänderung ausdrücklich bereits erzählt wurde. Farben bleiben trotz wechselnder Umgebung identifizierbar. Die Umgebung darf sich von Geschichte zu Geschichte ändern; Zeichentechnik, Palette, Perspektivlogik und Pixelmaßstab bleiben gleich.
+
+FORMAT UND PIXELRASTER — FEST
+Querformat 4:3, randlos und vollständig deckend. Das Bild soll wie auf einem logischen Raster von 320 × 240 quadratischen Pixeln gezeichnet erscheinen. Bei größerer Ausgabedatei diese 320 × 240 Gestaltung sichtbar ganzzahlig und scharf nach dem Nearest-Neighbor-Prinzip vergrößern, vorzugsweise auf 1280 × 960. Jeder sichtbare logische Pixelblock hat über das gesamte Bild dieselbe Größe. Keine feineren Detailpixel in Gesichtern, Haaren, Texturen oder Licht. Treppenkanten sind bewusst und sauber. Keine weichen Übergänge, Unschärfe oder geglätteten Konturen.
+
+FESTE PALETTE — DIESE 24 FARBEN VERWENDEN
+Tiefe Schatten und kühle Abstufungen:
+#10121C #1C2440 #283C64 #3E5B85 #7391AD #A3B8C6
+Violette Abstufungen:
+#32213D #573D60 #875C78
+Grüne Abstufungen:
+#1E3B35 #2D5846 #4C7653 #85A469
+Erde, Holz und warme Haut-/Steinabstufungen:
+#3D2924 #654133 #945D40 #C18858 #D6AA72 #E9CB9C
+Warme Akzente und Lichter:
+#7D2838 #B74B47 #D77A48 #E8B65A #F4E3B2
+Benutze ausschließlich diese gemeinsame Palette; pro Szene höchstens diese 24 Farben. Keine neue Szenenpalette, kein reines Schwarz, kein reines Weiß und keine Neonfarben. Schatten überwiegend dunkelblau oder violett, Lichter überwiegend warm. Verwende zwei bis vier klar getrennte Farbstufen je Material. Starke Akzentfarben nur für tatsächlich vorhandene wichtige Objekte; sie dürfen keine richtige Entscheidung verraten.
+
+ZEICHENTECHNIK UND MATERIALIEN — FEST
+Formen durch zusammenhängende, bewusst gesetzte Pixelcluster darstellen. Konturen selektiv und höchstens einen logischen Pixel stark, in einem passenden dunklen Palettenton. Kein schwarzer Comicrand um jedes Objekt. Kleine Gesichtsmerkmale auf wenige Pixel reduzieren. Keine realistische Poren-, Fell- oder Stoff-Mikrostruktur. Holz, Stein, Wasser und Laub durch wenige größere, wiedererkennbare Cluster unterscheiden. Kleine unregelmäßige Details nur dort, wo sie den Gegenstand erkennbarer machen.
+
+DITHERING — FEST
+Weite Flächen überwiegend ruhig halten. Nur an ausgewählten Schatten- und Farbgrenzen dezentes geordnetes 2 × 2-Schachbrettdithering mit zwei benachbarten Palettefarben einsetzen. Dithering höchstens auf ungefähr 15 Prozent der Bildfläche. Keine zufälligen Einzelpixel, kein fotografisches Rauschen, kein vollflächiges Sprenkelmuster, keine diagonalen modernen Rasterfilter. Keine Dithering-Textur auf Gesichtern oder kleinen entscheidungsrelevanten Gegenständen.
+
+LICHT — FEST
+Einfaches klar lesbares Adventure-Licht mit einer dominanten Lichtwirkung von links oben. Harte, gestufte Schattengrenzen und klare Materialflächen. Lokale Lichtquellen nur ergänzen, wenn sie in der Szene vorkommen; ihre Farbe stammt aus der festen Palette. Tageszeit wird durch die Auswahl vorhandener Palettefarben und die Helligkeitsverteilung gezeigt. Keine zusätzlichen Farben durch transparentes Überblenden. Keine Lichtstrahlen, kein Bloom, kein Lens Flare, keine fotografische Tiefenschärfe, keine plastische 3D-Glanzbeleuchtung.
+
+PERSPEKTIVE UND KOMPOSITION — FEST
+Feste Adventure-Bühnenansicht aus leicht erhöhter Augenhöhe mit dezenter Dreiviertelperspektive. Keine Isometrie und kein extremer Weitwinkel. Klar lesbare Vorder-, Mittel- und Hintergrundebenen. Wo ein Horizont sichtbar ist, liegt er ungefähr im oberen Drittel bis knapp unter der Bildmitte. Hauptgeschehen im Mittelgrund, mit unaufdringlicher Rahmung durch die vorhandene Umgebung. Figuren überwiegend vollständig sichtbar und etwa 35 bis 65 logische Pixel hoch; relevante Gegenstände bleiben auch bei kleiner Darstellung erkennbar. Nur dann näher herangehen, wenn der aktuelle Moment sonst unverständlich wäre, und dabei denselben logischen Pixelmaßstab und Zeichenstil beibehalten. Figuren nicht unmotiviert zur Kamera posieren lassen.
+
+DARSTELLUNG EINER ENTSCHEIDUNG
+Zeige den Augenblick unmittelbar vor der Wahl. Sind mehrere Wege, Türen oder Gesprächspartner bereits sichtbar beschrieben, müssen sie im selben Bild verständlich erkennbar sein. Keine Pfeile, Nummern, Beschriftungen, Auswahlrahmen oder farblichen Richtig/Falsch-Markierungen. Keine Parallelwelten, keine Split-Screen-Darstellung möglicher Folgen. Erfinde keine physischen Alternativen, wenn die Entscheidung rein gedanklich oder sprachlich ist. Bei einem Endknoten nur den tatsächlich eingetretenen Zustand zeigen.
+
+ERZÄHLTREUE UND AUSSCHLÜSSE — FEST
+Nur Informationen aus den ausgefüllten Szenenfeldern darstellen. Keine Geheimnisse, späteren Gegner, versteckten Schätze oder Folgen einer noch nicht getroffenen Entscheidung enthüllen. Keine zusätzlichen Figuren, Tiere, Gegenstände, Gefahrensignale oder dramatischen Ereignisse erfinden. Schulgeeignete, atmosphärische Abenteuerdarstellung; falls Gefahr vorkommt, Spannung durch Szene und Haltung darstellen, ohne grafische Verletzungen.
+Keinerlei Text, Buchstaben, Ziffern, Runenfolgen, Logos, Wasserzeichen, Signaturen, Benutzeroberfläche, Dialogboxen, Inventar, Cursor, Sprechblasen, Rahmen, Bildschirmgehäuse, CRT-Wölbung oder Scanlines. Schilder und Buchseiten bleiben unlesbar beziehungsweise leer. Kein Foto, kein Gemälde, kein Vektorlook, kein moderner HD-Pixel-Look mit weichen Effekten, kein 3D-Rendering.
+
+PRIORITÄTEN
+Erzählte Fakten und Figurenkontinuität zuerst. Danach feste Stilreferenz, gemeinsame Palette, einheitliches Pixelraster und lesbare Komposition. Ein einziges fertiges Szenenbild ausgeben, keine Erläuterung im Bild.
+
+ENDE DES GENERIERUNGSPROMPTS
+
+EINGABEBILD 1: STYLE ONLY — ausschließlich Stilreferenz. Erzeuge eine NEUE Szene des verlassenen Hauses gemäß den Szenenfeldern. Keine Burg, Burgtürme, Wappen, Banner, Berge, See oder Elemente der Referenzszene übernehmen. Bewahre genau deren Pixelstil, abgestufte Palette, Detailgrad und 4:3-Querformat. Ausgabe vollständig deckend, randlos, ohne Text oder Benutzeroberfläche.

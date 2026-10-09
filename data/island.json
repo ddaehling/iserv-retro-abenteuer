@@ -1,0 +1,102 @@
+{
+  "id": "island",
+  "author": "Neha",
+  "title": "Die unbekannte Insel",
+  "description": "Zwischen Dschungel und Berg führen drei verborgene Wege zum Schatz einer unbekannten Insel.",
+  "genre": "Inselabenteuer",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Gestrandet",
+      "text": ["Du strandest auf einer unbekannten Insel. Dein Ziel ist es, einen Schatz zu finden.", "Vor dir liegen zwei Wege. Welchen nimmst du?"],
+      "choices": [{"label": "In den Dschungel gehen", "to": "map"}, {"label": "Zum Berg gehen", "to": "lookout"}],
+      "image": "island-start"
+    },
+    "map": {
+      "title": "Eine alte Karte",
+      "text": ["Du findest eine alte Karte. Folgst du ihr?"],
+      "choices": [{"label": "Der Karte folgen", "to": "temple"}, {"label": "Ohne Karte weitergehen", "to": "river"}],
+      "image": "island-map"
+    },
+    "temple": {
+      "title": "Die drei Türen",
+      "text": ["Du findest einen geheimen Tempel mit drei Türen. Durch welche gehst du hinein?"],
+      "choices": [{"label": "Durch die rote Tür gehen", "to": "zombie_end"}, {"label": "Durch die grüne Tür gehen", "to": "jewels_end"}, {"label": "Durch die blaue Tür gehen", "to": "lion_end"}],
+      "image": "island-temple"
+    },
+    "river": {
+      "title": "Am Fluss",
+      "text": ["Du gehst weiter und findest einen Fluss. Überquerst du ihn?"],
+      "choices": [{"label": "Den Fluss überqueren", "to": "diamonds_end"}, {"label": "Zum Strand zurückgehen", "to": "shark_end"}],
+      "image": "island-river"
+    },
+    "lookout": {
+      "title": "Der alte Aussichtspunkt",
+      "text": ["Du findest einen alten Aussichtspunkt. Kletterst du weiter nach oben?"],
+      "choices": [{"label": "Weiter nach oben klettern", "to": "smoke"}, {"label": "Nicht weiterklettern", "to": "shelter_end"}],
+      "image": "island-lookout"
+    },
+    "smoke": {
+      "title": "Rauch in der Ferne",
+      "text": ["Du entdeckst Rauch in der Ferne. Gehst du ihm nach?"],
+      "choices": [{"label": "Dem Rauch nachgehen", "to": "camp_end"}, {"label": "Dem Rauch nicht folgen", "to": "strangers_end"}],
+      "image": "island-smoke"
+    },
+    "jewels_end": {
+      "title": "Die Truhe voller Juwelen",
+      "text": ["Du hast eine Truhe voller Juwelen gefunden. Gewonnen!", "Schatzende 1 von 3."],
+      "choices": [],
+      "image": "island-temple",
+      "ending": "success"
+    },
+    "lion_end": {
+      "title": "Der hungrige Löwe",
+      "text": ["Ein hungriger Löwe frisst dich auf. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "island-temple",
+      "ending": "failure"
+    },
+    "zombie_end": {
+      "title": "Unbewaffnet",
+      "text": ["Du begegnest unbewaffnet einem Zombie. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "island-temple",
+      "ending": "failure"
+    },
+    "diamonds_end": {
+      "title": "Diamanten in der Höhle",
+      "text": ["Du entdeckst eine Höhle mit einer Truhe voller Diamanten. Gewonnen!", "Schatzende 2 von 3."],
+      "choices": [],
+      "image": "island-river",
+      "ending": "success"
+    },
+    "shark_end": {
+      "title": "Der Rückweg zum Strand",
+      "text": ["Auf dem Weg zurück zum Strand findet dich ein Hai und frisst dich auf. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "island-river",
+      "ending": "failure"
+    },
+    "shelter_end": {
+      "title": "Der Unterschlupf",
+      "text": ["Du findest einen verlassen wirkenden Unterschlupf. Seine Bewohner nehmen dich gefangen. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "island-lookout",
+      "ending": "failure"
+    },
+    "camp_end": {
+      "title": "Das verlassene Lager",
+      "text": ["Du findest ein verlassenes Lager. Darin liegt der Schatz, den du gesucht hast. Gewonnen!", "Schatzende 3 von 3."],
+      "choices": [],
+      "image": "island-smoke",
+      "ending": "success"
+    },
+    "strangers_end": {
+      "title": "Unbekannte Verfolger",
+      "text": ["Unbekannte folgen dir und töten dich. Dein Abenteuer endet hier."],
+      "choices": [],
+      "image": "island-smoke",
+      "ending": "failure"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "house",
+  "author": "Sophie",
+  "title": "Das verlassene Haus",
+  "description": "Suche in einem verlassenen Haus nach einer alten Truhe und finde einen Weg, sie zu öffnen.",
+  "genre": "Geheimnis",
+  "start": "start",
+  "nodes": {
+    "start": {
+      "title": "Vor dem verlassenen Haus",
+      "text": ["Vor dir steht ein verlassenes Haus. Deine Mission ist es, darin eine alte Truhe zu finden.", "Möchtest du das Haus betreten?"],
+      "choices": [{"label": "Das Haus betreten", "to": "equipment"}, {"label": "Im Wald bleiben", "to": "lost"}],
+      "image": "house-start"
+    },
+    "equipment": {
+      "title": "Was nimmst du mit?",
+      "text": ["Du hast nicht genug Platz für dein Handy, eine Taschenlampe und einen Schlüsselbund. Nur einen dieser Gegenstände kannst du mitnehmen."],
+      "choices": [{"label": "Taschenlampe", "to": "rooms"}, {"label": "Handy", "to": "battery"}, {"label": "Schlüsselbund", "to": "study"}],
+      "image": "house-equipment"
+    },
+    "rooms": {
+      "title": "Ein Licht im Dunkeln",
+      "text": ["Mit deiner Taschenlampe kannst du dich im dunklen Haus orientieren. Wohin gehst du zuerst?"],
+      "choices": [{"label": "In die Küche", "to": "kitchen"}, {"label": "Ins Wohnzimmer", "to": "living_locked"}, {"label": "In den Keller", "to": "doors"}],
+      "image": "house-rooms"
+    },
+    "doors": {
+      "title": "Drei Türen im Keller",
+      "text": ["Im Keller stehst du vor drei Türen: einer blauen, einer roten und einer gelben. Welche öffnest du?"],
+      "choices": [{"label": "Blaue Tür", "to": "outside"}, {"label": "Rote Tür", "to": "chest"}, {"label": "Gelbe Tür", "to": "basement_locked"}],
+      "image": "house-doors"
+    },
+    "kitchen": {
+      "title": "Ein Hinweis auf dem Tisch",
+      "text": ["Auf dem Küchentisch liegt ein Zettel: „Gehe zum düstersten Ort im Haus.“", "Wohin möchtest du gehen?"],
+      "choices": [{"label": "In den Keller", "to": "chest"}, {"label": "In einen anderen Raum", "to": "other_locked"}],
+      "image": "house-kitchen"
+    },
+    "chest": {
+      "title": "Die alte Truhe",
+      "text": ["Du findest die alte Truhe. Sie ist verschlossen. Brichst du sie auf oder suchst du nach dem Schlüssel?"],
+      "choices": [{"label": "Nach dem Schlüssel suchen", "to": "treasure"}, {"label": "Die Truhe aufbrechen", "to": "chest_locked"}],
+      "image": "house-chest"
+    },
+    "study": {
+      "title": "Das Arbeitszimmer",
+      "text": ["Nach einigen Versuchen passt einer deiner Schlüssel. Du gelangst in ein Arbeitszimmer. Auf dem Tisch liegt ein weiterer Schlüssel.", "Suchst du weiter?"],
+      "choices": [{"label": "Ja, im Keller weitersuchen", "to": "no_light"}, {"label": "Nein, das Haus verlassen", "to": "leave"}],
+      "image": "house-study"
+    },
+    "lost": {"title": "Im Wald verirrt", "text": ["Du betrittst das Haus nicht und verirrst dich im Wald. Deine Suche endet, bevor du die Truhe finden kannst."], "choices": [], "image": "house-start", "ending": "failure"},
+    "battery": {"title": "Der Akku ist leer", "text": ["Im Haus ist es dunkel. Deine Handytaschenlampe hält nicht lange: Der Akku ist leer. Du kannst deine Suche nicht fortsetzen."], "choices": [], "image": "house-equipment", "ending": "failure"},
+    "living_locked": {"title": "Im Wohnzimmer eingeschlossen", "text": ["Die Tür fällt hinter dir zu und sperrt dich im Wohnzimmer ein. Deine Suche ist vorbei."], "choices": [], "image": "house-rooms", "ending": "failure"},
+    "outside": {"title": "Wieder draußen", "text": ["Die blaue Tür führt nach draußen. Du hast die Truhe nicht gefunden. Dein Abenteuer endet hier."], "choices": [], "image": "house-doors", "ending": "failure"},
+    "basement_locked": {"title": "Die Tür fällt zu", "text": ["Hinter der gelben Tür fällt die Tür ins Schloss. Du bist eingeschlossen und kannst nicht weitersuchen."], "choices": [], "image": "house-doors", "ending": "failure"},
+    "other_locked": {"title": "Der falsche Raum", "text": ["Du gehst in einen anderen Raum. Die Tür fällt hinter dir zu und sperrt dich ein. Du kommst nicht mehr zur Truhe."], "choices": [], "image": "house-kitchen", "ending": "failure"},
+    "treasure": {"title": "Gold in der Truhe", "text": ["Unter einem Teppich findest du den Schlüssel. Er passt! In der Truhe liegt Gold.", "Du hast die Truhe gefunden und geöffnet. Gewonnen!"], "choices": [], "image": "house-chest", "ending": "success"},
+    "chest_locked": {"title": "Die Truhe hält stand", "text": ["Du schaffst es nicht, die Truhe aufzubrechen. Sie bleibt verschlossen. Deine Suche endet ohne den Schatz."], "choices": [], "image": "house-chest", "ending": "failure"},
+    "no_light": {"title": "Ohne Licht im Keller", "text": ["Du öffnest die Kellertür und willst dort nach dem passenden Schloss suchen. Doch ohne Licht kannst du dich nicht orientieren. Deine Suche endet hier."], "choices": [], "image": "house-study", "ending": "failure"},
+    "leave": {"title": "Die Suche endet", "text": ["Du verlässt das Haus. Die Truhe bleibt unentdeckt."], "choices": [], "image": "house-study", "ending": "failure"}
+  }
+}
